@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FigurineShop.Tests", "FigurineShop.Tests\FigurineShop.Tests.csproj", "{CFC32700-9C66-4160-948C-EB0BBEF5BE0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FigurineShop.Entites", "FigurineShop.Entites\FigurineShop.Entites.csproj", "{7643C6DB-0621-4264-971C-574296C6F053}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CFC32700-9C66-4160-948C-EB0BBEF5BE0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFC32700-9C66-4160-948C-EB0BBEF5BE0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFC32700-9C66-4160-948C-EB0BBEF5BE0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFC32700-9C66-4160-948C-EB0BBEF5BE0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7643C6DB-0621-4264-971C-574296C6F053}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7643C6DB-0621-4264-971C-574296C6F053}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7643C6DB-0621-4264-971C-574296C6F053}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7643C6DB-0621-4264-971C-574296C6F053}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
