@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>9.0.21022</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{7643C6DB-0621-4264-971C-574296C6F053}</ProjectGuid>
+    <ProjectGuid>{6CAF67DD-3405-4104-9CF2-438A688349B1}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>FigurineShop.Entites</RootNamespace>
-    <AssemblyName>FigurineShop.Entites</AssemblyName>
+    <RootNamespace>FigurineShop.Interacteurs</RootNamespace>
+    <AssemblyName>FigurineShop.Interacteurs</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -45,10 +45,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Figurine.cs" />
-    <Compile Include="IPanierFigurines.cs" />
-    <Compile Include="PanierFigurines.cs" />
+    <Compile Include="InteracteurAjoutFigurinePanier.cs" />
+    <Compile Include="InteracteurCatalogueFigurines.cs" />
+    <Compile Include="InteracteurConsultationPanier.cs" />
+    <Compile Include="ModeleReponsePanier.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FigurineShop.Bornes\FigurineShop.Bornes.csproj">
+      <Project>{318D0935-A58D-4659-AC60-14381423A0E6}</Project>
+      <Name>FigurineShop.Bornes</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FigurineShop.Entites\FigurineShop.Entites.csproj">
+      <Project>{7643C6DB-0621-4264-971C-574296C6F053}</Project>
+      <Name>FigurineShop.Entites</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

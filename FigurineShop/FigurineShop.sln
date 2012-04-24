@@ -5,6 +5,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FigurineShop.Tests", "Figur
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FigurineShop.Entites", "FigurineShop.Entites\FigurineShop.Entites.csproj", "{7643C6DB-0621-4264-971C-574296C6F053}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FigurineShop.Interacteurs", "FigurineShop.Interacteurs\FigurineShop.Interacteurs.csproj", "{6CAF67DD-3405-4104-9CF2-438A688349B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FigurineShop.Bornes", "FigurineShop.Bornes\FigurineShop.Bornes.csproj", "{318D0935-A58D-4659-AC60-14381423A0E6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +23,14 @@ Global
 		{7643C6DB-0621-4264-971C-574296C6F053}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7643C6DB-0621-4264-971C-574296C6F053}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7643C6DB-0621-4264-971C-574296C6F053}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CAF67DD-3405-4104-9CF2-438A688349B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CAF67DD-3405-4104-9CF2-438A688349B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CAF67DD-3405-4104-9CF2-438A688349B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CAF67DD-3405-4104-9CF2-438A688349B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{318D0935-A58D-4659-AC60-14381423A0E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{318D0935-A58D-4659-AC60-14381423A0E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{318D0935-A58D-4659-AC60-14381423A0E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{318D0935-A58D-4659-AC60-14381423A0E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

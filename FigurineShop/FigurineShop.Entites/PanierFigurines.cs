@@ -1,10 +1,9 @@
-using System;
 using System.Collections.Generic;
 using System.Linq;
 
 namespace FigurineShop.Entites
 {
-    public class PanierFigurines
+    public class PanierFigurines : IPanierFigurines
     {
         public const int PRIX_UNITAIRE_FIGURINE = 8;
         private float[] coefficientsRéduction = new[] {0, 1, 0.95f, 0.90f, 0.75f};
