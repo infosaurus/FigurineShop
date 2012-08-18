@@ -4,7 +4,7 @@ using FigurineShop.Entites;
 
 namespace FigurineShop.Interacteurs
 {
-    public class InteracteurCatalogueFigurines
+    public class InteracteurCatalogueFigurines : IInteracteurCatalogue
     {
         private readonly IEntrepotFigurines entrepotFigurines;
 
@@ -20,5 +20,10 @@ namespace FigurineShop.Interacteurs
                 return new List<Figurine>();
             return toutesFigurines;
         }
+    }
+
+    public interface IInteracteurCatalogue
+    {
+        IList<Figurine> Catalogue();
     }
 }

@@ -2,7 +2,7 @@ using FigurineShop.Entites;
 
 namespace FigurineShop.Interacteurs
 {
-    public class InteracteurAjoutFigurinePanier
+    public class InteracteurAjoutFigurinePanier : IInteracteurAjoutFigurine
     {
         private readonly IPanierFigurines panierFigurines;
 
@@ -16,5 +16,10 @@ namespace FigurineShop.Interacteurs
             if (figurine != null)
                 panierFigurines.AjouterFigurine(figurine);
         }
+    }
+
+    public interface IInteracteurAjoutFigurine
+    {
+        void AjouterFigurine(Figurine figurine);
     }
 }

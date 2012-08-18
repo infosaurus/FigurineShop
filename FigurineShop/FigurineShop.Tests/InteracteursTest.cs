@@ -39,14 +39,6 @@ namespace FigurineShop.Tests
         }
 
         [Test]
-        public void InteracteurRetourneListeVideSiEntrepotRetourneNull()
-        {
-            doublureEntrepot.Setup(d => d.ToutesFigurines()).Returns(() => null);
-
-            Assert.That(interacteur.Catalogue(), Is.Empty);
-        }
-
-        [Test]
         public void InteracteurPeutRetournerListeFigurinesContenueDansEntrepot()
         {
             var listeFigurines = new List<Figurine>
@@ -86,7 +78,7 @@ namespace FigurineShop.Tests
         public void InteracteurPeutAjouterFigurineAuPanier()
         {
             var figurine = new Figurine("Tintin");
-            
+
             interacteur.AjouterFigurine(figurine);
 
             panier.Verify(p => p.AjouterFigurine(figurine));
